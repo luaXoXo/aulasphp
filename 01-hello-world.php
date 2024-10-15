@@ -9,10 +9,17 @@
 
     <h1>Experiencias com PHP</h1>
     <hr>
-    
+    <!-- delimitador de abertura -->
     <?php
+    echo "ola";
+    echo "<p>Progamador web </p>";
+    echo "<p style=\"color:red\">senac penha </p>";
 
     ?>
+    <!-- delimitador de fechamento -->
+
+
+    
 
 </body>
 </html>
