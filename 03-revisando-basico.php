@@ -21,9 +21,13 @@
     /* exibir no HTML duas frase da seguinte forma */
 
     echo "<p>Ola! Meu nome é <i>".NOME."<i> e eu tenho <span class='text-bg-danger'> $idade anos</span>"
-
+    
     
     ?>
     <p>Olá! meu nome é <i class="text-danger"><?=NOME?></i> e tenho <span class=text-bg-danger ><?=$idade?> anos.</span></p>
+
+    <p >Qualquer coisa </p>
+
+    
 </body>
 </html>
