@@ -1,3 +1,4 @@
+<?php include "recursos-externos.php" ?> 
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,6 +15,14 @@
 
     <h1>Revisando o basico</h1>
     <hr>
+
+<ul>
+    <?php foreach($tecnologias as $tec) {?>
+    <li> <?=$tec?> </li>
+    <?php }  ?>
+</ul>
+
+<hr>
 
 
     <?php

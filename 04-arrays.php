@@ -43,7 +43,7 @@
         <h3>var_dump(nomeArray)</h3>
        <pre> <?=var_dump($cursos) ?></pre>
 
-
+<?php include "redes-sociais.html "?>
 </body>
 
 </html>
